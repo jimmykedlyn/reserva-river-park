@@ -1,9 +1,9 @@
-//----------------------------------*\
-// SCSS MIXINS
-//----------------------------------*/
+@import "../../node_modules/bootstrap/scss/bootstrap";// SCSS MIXINS
+
 
 @import 'mixins/_position.scss';
 @import 'mixins/_selection.scss';
+
 
 //----------------------------------*\
 // CONFIG MODULES
@@ -19,15 +19,19 @@
 //----------------------------------*/
 
 @import 'partials/_header.scss';
-@import 'partials/_nav.scss';
-@import 'partials/_sidebar.scss';
-@import 'partials/_main.scss';
+@import 'partials/_slider.scss';
+@import 'partials/_section-two.scss';
+@import 'partials/_section-three.scss';
+@import 'partials/_section-four.scss';
+@import 'partials/_section-five.scss';
+@import 'partials/_section-six.scss';
+@import 'partials/_section-seven.scss';
 @import 'partials/_footer.scss';
 
 //----------------------------------*\
 // OBJECTS & MODULES
 //----------------------------------*/
-
+@import 'modules/_animations.scss';
 @import 'modules/_buttons.scss';
 @import 'modules/_inputs.scss';
 @import 'modules/_lists.scss';

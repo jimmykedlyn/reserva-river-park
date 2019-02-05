@@ -1,10 +1,92 @@
+@import "http://fonts.googleapis.com/css?family=Roboto:400%2C500";
+
 @font-face {
-  font-family: 'Font-Name';
-  src: url('../fonts/font-name.eot');
-  src: url('../fonts/font-name.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/font-name.woff') format('woff'),
-       url('../fonts/font-name.ttf') format('truetype'),
-       url('../fonts/font-name.svg#font-name') format('svg');
+  font-family: 'textanarrowalt-bold-webfont';
+  src: url('../fonts/textanarrowalt-bold-webfont.eot');
+  src: url('../fonts/textanarrowalt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/textanarrowalt-bold-webfont.woff') format('woff'),
+  url('../fonts/textanarrowalt-bold-webfont.ttf') format('truetype'),
+  url('../fonts/textanarrowalt-bold-webfont.svg#textanarrowalt-bold-webfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'textanarrowalt-book-webfont';
+  src: url('../fonts/textanarrowalt-book-webfont.eot');
+  src: url('../fonts/textanarrowalt-book-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/textanarrowalt-book-webfont.woff') format('woff'),
+  url('../fonts/textanarrowalt-book-webfont.ttf') format('truetype'),
+  url('../fonts/textanarrowalt-book-webfont.svg#textanarrowalt-book-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'textanarrowalt-mediumit-webfont';
+  src: url('../fonts/textanarrowalt-mediumit-webfont.eot');
+  src: url('../fonts/textanarrowalt-mediumit-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/textanarrowalt-mediumit-webfont.woff') format('woff'),
+  url('../fonts/textanarrowalt-mediumit-webfont.ttf') format('truetype'),
+  url('../fonts/textanarrowalt-mediumit-webfont.svg#textanarrowalt-book-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lactosa-webfont';
+  src: url('../fonts/lactosa-webfont.eot');
+  src: url('../fonts/lactosa-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lactosa-webfont.woff') format('woff'),
+  url('../fonts/lactosa-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rv__heading-lactosa {
+  font-family: $font-lactosa;
+  color: $color-white;
+  font-size: 3em;
+  @include media-breakpoint-only(xs) {
+    font-size: 2em;
+  }
+  @include media-breakpoint-only(sm) {
+    font-size: 2.5em;
+  }
+  padding-bottom: 45px;
+  text-align: center;
+  &:after {
+    content: '';
+    background-image: url("../img/white-wave-text-after.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    position: absolute;
+    height: 75px;
+    margin-left: 20px;
+    @include media-breakpoint-only(xs) {
+      transform: scale(.5);
+      font-size: 1.5em;
+      margin-left: 0;
+      margin-top: -32px;
+    }
+  }
+}
+
+.rv__heading-slide-subtitle {
+  font-family: $font-textanarrowalt-bold;
+  font-size: 3em;
+  text-align: center;
+  @include media-breakpoint-only(xs) {
+    font-size: 2em;
+  }
+  @include media-breakpoint-only(sm) {
+    font-size: 2.5em;
+  }
+  @include media-breakpoint-only(md) {
+    font-size: 2.5em;
+  }
+  @include media-breakpoint-only(lg) {
+    font-size: 2.5em;
+  }
+}
+

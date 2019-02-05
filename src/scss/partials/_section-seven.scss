@@ -1,0 +1,114 @@
+.rv__section-seven {
+  padding: 100px 0;
+  position: relative;
+  background: $third-color-blue-light;
+  width: 100%;
+
+  .rv__section-seven-figure {
+    position: absolute;
+    @include media-breakpoint-only(xs) {
+      left: 0;
+      z-index: 2;
+      max-width: 36vw;
+    }
+
+    @include media-breakpoint-only(sm) {
+      bottom: 44%;
+      left: 0;
+      z-index: 2;
+      max-width: 39vw;
+    }
+
+    @include media-breakpoint-only(md) {
+      bottom: 34%;
+      left: 0;
+      z-index: 2;
+      max-width: 32vw;
+    }
+    @include media-breakpoint-only(lg) {
+      bottom: -50px;
+      left: 0;
+      z-index: 2;
+      max-width: 32vw;
+    }
+
+    @include media-breakpoint-only(xl) {
+      bottom: -16vw;
+      left: 0;
+      z-index: 2;
+      max-width: 32vw;
+    }
+  }
+
+  figure {
+    img {
+      width: 100%;
+      left: 0;
+      position: relative;
+      @include media-breakpoint-only(xs) {
+        left: 0;
+      }
+
+      @include media-breakpoint-only(sm) {
+        left: 0;
+      }
+
+      @include media-breakpoint-only(md) {
+        left: -4rem;
+        top: -1vw;
+      }
+
+      @include media-breakpoint-only(lg) {
+        left: 0;
+        top: 1vw;
+      }
+      @include media-breakpoint-only(xl) {
+        left: -6rem;
+      }
+      }
+    }
+
+
+  .rv__section-seven-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 50px;
+    @include media-breakpoint-down(md){
+      padding-top: 60px;
+    }
+    p {
+      color: $third-color-gray;
+      font-family: $font-textanarrowalt-mediumit;
+      font-size: 18px;
+      @include media-breakpoint-down(md){
+         text-align: center;
+      }
+    }
+
+    a {
+      color: $color-white;
+      height: calc(3.875rem + 2px);
+      line-height: 30px;
+      font-family: $font-textanarrowalt-bold;
+      padding: 0.5rem 2rem;
+      font-size: 1.6em;
+      @include media-breakpoint-only(xs) {
+        display: table;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      @include media-breakpoint-only(sm) {
+        display: table;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      @include media-breakpoint-only(md) {
+        display: table;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+

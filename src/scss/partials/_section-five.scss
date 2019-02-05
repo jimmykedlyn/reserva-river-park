@@ -1,0 +1,66 @@
+.rv__section-five {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-image: url("../img/sand-white-wave.png");
+  @include media-breakpoint-only(xs) {
+    padding: 100px 50px;
+  }
+  @include media-breakpoint-only(sm) {
+    padding: 100px 50px;
+  }
+  @include media-breakpoint-only(md) {
+    padding: 100px 70px;
+  }
+  @include media-breakpoint-only(lg) {
+    padding: 100px 90px;
+  }
+  @include media-breakpoint-only(xl) {
+    padding: 100px 200px;
+  }
+  width: 100%;
+  background-color: $third-color-yellow;
+  flex-direction: column;
+
+  #rv__section-five {
+    .item {
+      figure {
+        border: 9px solid #fff;
+        border-radius: 7px;
+      }
+
+      h4 {
+        @extend .rv__heading-slide-subtitle;
+        color: $color-white;
+      }
+    }
+
+    .owl-nav {
+      margin-top: 0;
+      .owl-prev {
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        left: -90px;
+      }
+
+      .owl-next {
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        right: -90px;
+      }
+    }
+  }
+
+  .rv__section-five-wave {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+}

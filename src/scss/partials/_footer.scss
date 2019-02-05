@@ -1,3 +1,123 @@
-.footer {
+.rv__pre-footer {
+  padding: 0 50px;
+  @include media-breakpoint-down(md) {
+    padding: 60px 50px;
+    text-align: center;
+  }
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+  position: relative;
+  .rv__pre-footer-brand {
+    a {
+      display: block;
 
+      figure {
+        img {
+          width: 70%;
+          max-width: 200px;
+        }
+      }
+    }
+
+    address {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: $font-textanarrowalt-mediumit;
+      font-size: 18px;
+    }
+  }
+
+  .rv__pre-footer-nav {
+    h4 {
+      font-family: $font-textanarrowalt-mediumit;
+      font-size: 2em;
+    }
+    a {
+      display: block;
+      font-family: $font-textanarrowalt-mediumit;
+      color: #444;
+      font-size: 22px;
+      transition: .5s;
+      &:hover {
+        text-decoration: none;
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
+.rv__footer {
+  padding: 0 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  min-height: 100px;
+  background: $third-color-blue;
+  .rv__footer-infor {
+    display: flex;
+    align-items: center;
+  }
+  h5 {
+    margin-bottom: 0;
+    @include media-breakpoint-down(sm) {
+      font-size: 1.5em;
+    }
+    font-size: 2.2em;
+    font-family: $font-textanarrowalt-bold;
+    color: $color-white;
+    &:first-child a {
+      color: $color-white;
+      transition: .5s;
+
+      &:hover {
+        color: $secondary-color;
+        text-decoration: none;
+      }
+    }
+  }
+  .rv__footer-socials {
+    h5 {
+      margin-right: 5px;
+    }
+    display: flex;
+    align-items: center;
+    a {
+      display: block;
+      margin-left: 6px;
+      margin-right: 6px;
+      i {
+        display: block;
+
+        img {
+          width: 45px;
+          height: 45px;
+        }
+      }
+    }
+  }
+}
+
+.rv__footer-after {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  background: $primary-color;
+  min-height: 30px;
+
+  h6 {
+    @include media-breakpoint-down(sm) {
+      font-size: 12px;
+    }
+    text-align: center;
+    font-family: $font-textanarrowalt-book;
+    color: $color-white;
+    margin-bottom: 0;
+  }
 }

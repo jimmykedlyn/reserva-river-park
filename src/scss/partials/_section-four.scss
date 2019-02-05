@@ -1,0 +1,33 @@
+.rv__section-four {
+  position: relative;
+  padding: 100px 100px;
+  @include media-breakpoint-down(sm) {
+    padding: 100px 0;
+  }
+  img {
+    right: 0;
+    top: -100px;
+    display: inline-flex;
+    position: absolute;
+    z-index: 4;
+    width: 110%;
+    max-width: 440px;
+    @include media-breakpoint-only(xs) {
+      max-width: 140px;
+    }
+    @include media-breakpoint-only(sm) {
+      max-width: 200px;
+    }
+    @include media-breakpoint-only(md) {
+      max-width: 200px;
+    }
+
+    @include media-breakpoint-only(lg) {
+      max-width: 300px;
+    }
+  }
+
+  video {
+    width: 100%;
+  }
+}

@@ -1,0 +1,47 @@
+.rv__section-three {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  @include media-breakpoint-only(xs) {
+    padding: 100px 50px;
+  }
+  @include media-breakpoint-only(sm) {
+    padding: 100px 50px;
+  }
+  @include media-breakpoint-only(md) {
+    padding: 100px 70px;
+  }
+  @include media-breakpoint-only(lg) {
+    padding: 100px 90px;
+  }
+  @include media-breakpoint-only(xl) {
+    padding: 100px 200px;
+  }
+  width: 100%;
+  flex-direction: column;
+  background-color: $third-color-blue;
+  h2 {
+  @extend .rv__heading-lactosa
+  }
+  #rv__section-three {
+    .item {
+      figure {
+        border: 9px solid #fff;
+        border-radius: 7px;
+      }
+    }
+    padding-bottom: 80px;
+  }
+
+  .rv__section-three-wave {
+    width: 110%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+    }
+  }

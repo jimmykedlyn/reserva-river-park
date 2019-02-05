@@ -27,7 +27,6 @@ module.exports = function(grunt) {
    * Dynamically load npm tasks
    */
   require('load-grunt-tasks')(grunt);
-
   /**
    * FireShell Grunt config
    */
@@ -46,7 +45,8 @@ module.exports = function(grunt) {
         '<%= project.src %>/scss/style.scss'
       ],
       js: [
-        '<%= project.src %>/js/*.js'
+        '<%= project.src %>/js/plugins/*.js',
+        '<%= project.src %>/js/*.js',
       ]
     },
 
@@ -201,6 +201,7 @@ module.exports = function(grunt) {
       dev: {
         files: {
           '<%= project.assets %>/css/style.min.css': [
+            '<%= project.src %>/components/normalize-css/normalize.css',
             '<%= project.assets %>/css/style.unprefixed.css'
           ]
         }
@@ -235,19 +236,6 @@ module.exports = function(grunt) {
             '<%= project.assets %>/css/style.prefixed.css'
           ]
         }
-      }
-    },
-
-    /**
-     * Build bower components
-     * https://github.com/yatskevich/grunt-bower-task
-     */
-    bower: {
-      dev: {
-        dest: '<%= project.assets %>/components/'
-      },
-      dist: {
-        dest: '<%= project.assets %>/components/'
       }
     },
 
@@ -296,7 +284,6 @@ module.exports = function(grunt) {
    */
   grunt.registerTask('default', [
     'sass:dev',
-    'bower:dev',
     'autoprefixer:dev',
     'cssmin:dev',
     'jshint',
@@ -314,7 +301,6 @@ module.exports = function(grunt) {
    */
   grunt.registerTask('build', [
     'sass:dist',
-    'bower:dist',
     'autoprefixer:dist',
     'cssmin:dist',
     'clean:dist',
@@ -324,3 +310,4 @@ module.exports = function(grunt) {
   ]);
 
 };
+
