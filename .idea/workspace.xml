@@ -1,63 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b772aef-3363-46c3-8096-5b947eaab47a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/blue-wave-text-after.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/blue-wave.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/card-river.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/duck.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/left-hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/logo-river.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/right-blue-wave.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/sand-white-wave.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/white-wave-text-after.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/yellow-wave.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/jquery.themepunch.revolution.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/jquery.themepunch.tools.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/revolution.extension.actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/revolution.extension.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/revolution.extension.kenburn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/revolution.extension.layeranimation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/revolution.extension.migration.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/revolution.extension.navigation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/revolution.extension.parallax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/revolution.extension.slideanims.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/revolution.extension.video.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/tp-color-picker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/modules/_animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/partials/_section-five.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/partials/_section-four.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/partials/_section-seven.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/partials/_section-six.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/partials/_section-three.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/partials/_section-two.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/partials/_slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/partials/_sprite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bowerrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.jshintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/components/modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/components/modernizr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grunt-build.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grunt-build.command" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grunt-dev.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grunt-dev.command" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/mixins/_selection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mixins/_selection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/_misc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_sidebar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-    </list>
+    <list default="true" id="5b772aef-3363-46c3-8096-5b947eaab47a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -421,18 +365,17 @@
       <workItem from="1549297512584" duration="13616000" />
       <workItem from="1549378789042" duration="76000" />
       <workItem from="1549392710498" duration="2444000" />
-      <workItem from="1549395235525" duration="2312000" />
+      <workItem from="1549395235525" duration="2580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101253000" />
+    <option name="totallyTimeSpent" value="101521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2797619" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2797619" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -445,7 +388,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="RNConsole" order="9" weight="0.32991454" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21025641" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21025641" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
