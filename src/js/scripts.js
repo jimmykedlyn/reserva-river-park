@@ -61,16 +61,20 @@
   $('#rv__section-two').owlCarousel({
     loop: true,
     margin: 30,
-    nav: true,
+    nav: false,
     responsiveClass: true,
     lazyLoad: true,
     responsive: {
       0: {
         items: 1
       },
+      600: {
+        items: 1,
+        nav: false,
+      },
       800: {
         items: 2,
-        nav: true,
+        nav: false,
       },
       1000: {
         items: 3
@@ -91,11 +95,11 @@
       },
       600: {
         items: 1,
-        nav: true,
+        nav: false,
       },
       800: {
         items: 2,
-        nav: true,
+        nav: false,
       },
       1000: {
         items: 3
@@ -116,11 +120,11 @@
       },
       600: {
         items: 1,
-        nav: true,
+        nav: false,
       },
       800: {
         items: 1,
-        nav: true,
+        nav: false,
       },
       1000: {
         items: 1
@@ -146,7 +150,7 @@
         },
         800: {
           items: 2,
-          nav: true,
+          nav: false,
         },
         1000: {
           items: 3,

@@ -9,14 +9,27 @@
   align-items: center;
   z-index: 5;
   position: relative;
+
   .rv__pre-footer-brand {
+    @include media-breakpoint-only(xs) {
+      margin-bottom: 40px;
+    }
+
+    @include media-breakpoint-only(sm) {
+      margin-bottom: 40px;
+    }
+
+    @include media-breakpoint-only(md) {
+      margin-bottom: 50px;
+    }
     a {
+      text-align: center;
       display: block;
 
       figure {
         img {
           width: 70%;
-          max-width: 200px;
+          max-width: 160px;
         }
       }
     }
@@ -35,12 +48,14 @@
       font-family: $font-textanarrowalt-mediumit;
       font-size: 2em;
     }
+
     a {
       display: block;
       font-family: $font-textanarrowalt-mediumit;
       color: #444;
       font-size: 22px;
       transition: .5s;
+
       &:hover {
         text-decoration: none;
         color: $secondary-color;
@@ -56,19 +71,29 @@
   align-items: center;
   align-content: center;
   min-height: 100px;
+  @include media-breakpoint-down(md) {
+    padding: 10px 50px;
+  }
   background: $third-color-blue;
+
   .rv__footer-infor {
     display: flex;
     align-items: center;
   }
+
   h5 {
     margin-bottom: 0;
+    @include media-breakpoint-down(md) {
+      display: table;
+      margin: 0 auto;
+    }
     @include media-breakpoint-down(sm) {
       font-size: 1.5em;
     }
     font-size: 2.2em;
     font-family: $font-textanarrowalt-bold;
     color: $color-white;
+
     &:first-child a {
       color: $color-white;
       transition: .5s;
@@ -79,22 +104,48 @@
       }
     }
   }
+
   .rv__footer-socials {
     h5 {
       margin-right: 5px;
     }
+
     display: flex;
     align-items: center;
+
+    & > div {
+      display: inherit;
+    }
+
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+      h5 {
+        margin-left: 0;
+      }
+
+      & > div {
+        display: flex;
+      }
+    }
+
     a {
       display: block;
       margin-left: 6px;
       margin-right: 6px;
+      @include media-breakpoint-down(sm) {
+        margin-left: 7px;
+        margin-right: 7px;
+      }
       i {
         display: block;
 
         img {
           width: 45px;
           height: 45px;
+          @include media-breakpoint-down(sm) {
+            width: 35px;
+            height: 35px;
+          }
         }
       }
     }
@@ -115,6 +166,7 @@
     @include media-breakpoint-down(sm) {
       font-size: 12px;
     }
+    font-size: 18px;
     text-align: center;
     font-family: $font-textanarrowalt-book;
     color: $color-white;
