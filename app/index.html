@@ -63,23 +63,26 @@
   <nav class="rv__header-menu">
     <ul>
       <li>
-        <a href="#" class="rv__header-menu-over-active">Restaurante</a>
+        <a href="/#inicio" class="rv__header-menu-over-active">Início</a>
       </li>
       <li>
-        <a href="#">Praia Particular</a>
+        <a href="/#restaurante">Restaurante</a>
       </li>
       <li>
-        <a href="#">Parque Aquático</a>
+        <a href="/#praia-particular">Praia Particular</a>
       </li>
       <li>
-        <a href="#">Atividades</a>
+        <a href="/#parque-aquatico">Parque Aquático</a>
+      </li>
+      <li>
+        <a href="/#atividades">Atividades</a>
       </li>
       <span class="rv__header-menu-over menu-over"></span>
     </ul>
   </nav>
 </header>
 
-<section class="rv__slider">
+<section class="rv__slider" id="inicio">
 
   <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="river-park"
        data-source="gallery"
@@ -748,7 +751,7 @@
   </div>
   <!-- .entry-content -->
 </section>
-<section class="rv__section-two">
+<section class="rv__section-two" id="restaurante">
   <h2>Conheça nosso restaurante</h2>
   <div id="rv__section-two" class="owl-carousel owl-theme">
     <div class="item">
@@ -763,7 +766,7 @@
   </div>
   <img class="rv__section-two-wave" src="assets/img/yellow-wave.png" id="rv__section-two-wave">
 </section>
-<section class="rv__section-three">
+<section class="rv__section-three" id="praia-particular">
   <h2>Diversão para família toda</h2>
   <div id="rv__section-three" class="owl-carousel owl-theme">
     <div class="item">
@@ -778,7 +781,7 @@
   </div>
   <img class="rv__section-three-wave" src="assets/img/blue-wave.png" id="rv__section-three-wave">
 </section>
-<section class="rv__section-four">
+<section class="rv__section-four" id="parque-aquatico">
   <img src="assets/img/duck-right.png" id="rv__section-four-duck">
   <div class="container">
     <div class="row">
@@ -807,7 +810,7 @@
     </div>
   </div>
 </section>
-<section class="rv__section-five">
+<section class="rv__section-five" id="atividades">
   <div id="rv__section-five" class="owl-carousel owl-theme">
     <div class="item">
       <figure><img src="assets/img/pula-pula.jpg"></figure>
@@ -880,60 +883,105 @@
   </div>
 </section>
 <footer>
-<section class="rv__pre-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-lg-6 col-xl-6 rv__pre-footer-brand">
-        <div class="row">
-          <div class="col-md-6"><a href="https://hotelsolar.tur.br" title="Visitar site">
-            <figure><img src="assets/img/logo-solar.png" alt="Hotel Solar"></figure>
-          </a>
+  <section class="rv__pre-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 col-xl-6 rv__pre-footer-brand">
+          <div class="row">
+            <div class="col-md-6"><a href="https://hotelsolar.tur.br" title="Visitar site">
+              <figure><img src="assets/img/logo-solar.png" alt="Hotel Solar"></figure>
+            </a>
+            </div>
+            <div class="col-md-6">
+              <address>Av. Atlântica, S/N - Salinópolis-PA
+                contato@hotelsolar.tur.br
+              </address>
+            </div>
           </div>
-          <div class="col-md-6"><address>Av. Atlântica, S/N - Salinópolis-PA
-            contato@hotelsolar.tur.br</address></div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2 rv__pre-footer-nav">
+          <h4>ATRAÇÕES</h4>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Para família</a>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+               aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pulvinar sem gravida ullamcorper
+                  viverra. Sed et augue felis. Nam ut dapibus mauris, quis aliquet nibh. In in diam nunc. Donec rutrum
+                  augue nisl, dictum consequat lectus elementum vitae. Maecenas suscipit ante velit, a iaculis tortor
+                  porta sed. Quisque tempor sem a commodo rutrum. Nam sit amet erat eget tellus pharetra scelerisque et
+                  a erat. Sed lacinia efficitur auctor. Morbi et venenatis velit, sit amet volutpat massa. Vestibulum
+                  imperdiet imperdiet lectus at tempor. Fusce ultrices pellentesque aliquet. Vivamus non lorem in urna
+                  malesuada suscipit. Pellentesque dapibus ex et ex facilisis tincidunt. Nulla non augue libero.
+                  Suspendisse hendrerit, neque nec sollicitudin efficitur, nunc nisl semper risus, ac vestibulum lectus
+                  mauris at dui.
+
+                  Vivamus sed dapibus quam, nec sagittis ex. Praesent interdum sodales blandit. Sed pulvinar ac libero a
+                  scelerisque. Aliquam cursus, tellus vitae bibendum bibendum, nulla risus maximus augue, id efficitur
+                  ipsum dolor ut turpis. Duis sem ipsum, rutrum at blandit vitae, convallis non arcu. Suspendisse dui
+                  odio, commodo eget risus vel, viverra tempus dolor. Integer tempus, mi id mollis ultrices, purus arcu
+                  commodo felis, non hendrerit nunc lorem sed mauris. Etiam vestibulum egestas felis. Duis consectetur
+                  ex eget pharetra imperdiet. Etiam consequat, est nec ullamcorper ultricies, odio nibh posuere lectus,
+                  sit amet vulputate neque magna sed nunc. Etiam tempus felis ac arcu condimentum, malesuada tincidunt
+                  dolor tempus. Suspendisse vitae euismod nisi, vel feugiat orci. Aenean dictum facilisis ex, sed
+                  hendrerit ligula efficitur vitae. Sed ac leo ligula. Integer vel gravida libero, id auctor purus.
+                  Quisque sed porta augue, a efficitur lectus.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Para família</a>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Área kids</a>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Emocionante</a>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Descanso</a>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Gastrônomia</a>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Lojas</a>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2 rv__pre-footer-nav">
+          <h4>PASSAPORTE</h4>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Planos</a>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Vantagens</a>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Comprar</a>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2 rv__pre-footer-nav">
+          <h4>CONTATO</h4>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Pontos de venda</a>
+          <a data-toggle="modal" data-target="#exampleModalCenter">Trabalhe conosco</a>
         </div>
       </div>
-      <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2 rv__pre-footer-nav">
-        <h4>ATRAÇÕES</h4>
-        <a href="">Para família</a>
-        <a href="">Para família</a>
-        <a href="">Para família</a>
-        <a href="">Para família</a>
-      </div>
-      <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2 rv__pre-footer-nav">
-        <h4>PASSAPORTE</h4>
-        <a href="">Para família</a>
-        <a href="">Para família</a>
-        <a href="">Para família</a>
-        <a href="">Para família</a>
-      </div>
-      <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2 rv__pre-footer-nav">
-        <h4>CONTATO</h4>
-        <a href="">Para família</a>
-        <a href="">Para família</a>
-        <a href="">Para família</a>
-        <a href="">Para família</a>
-      </div>
     </div>
-  </div>
-</section>
-<section class="rv__footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-lg-6 col-xl-6 rv__footer-infor"><h5>FALE COM A GENTE: <a href="tel:(91) 0000-0000">(91) 0000-0000</a></h5></div>
-      <div class="col-md-12 col-lg-6 col-xl-6 rv__footer-socials">
-       <h5>SIGA NOSSAS REDES SOCIAIS</h5>
-        <div>
-        <a href="#" title="Instagram"><i><img src="assets/img/instagram.png" alt="Instagram"></i></a>
-        <a href="#" title="Facebook"><i><img src="assets/img/facebook.png" alt="Facebook"></i></a>
+  </section>
+  <section class="rv__footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 col-xl-6 rv__footer-infor"><h5>FALE COM A GENTE: <a href="tel:(91) 0000-0000">(91)
+          0000-0000</a></h5></div>
+        <div class="col-md-12 col-lg-6 col-xl-6 rv__footer-socials">
+          <h5>SIGA NOSSAS REDES SOCIAIS</h5>
+          <div>
+            <a href="#" title="Instagram"><i><img src="assets/img/instagram.png" alt="Instagram"></i></a>
+            <a href="#" title="Facebook"><i><img src="assets/img/facebook.png" alt="Facebook"></i></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="rv__footer-after">
-  <h6>Todos os direitos reservados - Desenvolvido por: Jimmy Kedlyn | Design por: Marco Leão</h6>
-</section>
+  </section>
+  <section class="rv__footer-after">
+    <h6>Todos os direitos reservados - Desenvolvido por: Jimmy Kedlyn | Design por: Marco Leão</h6>
+  </section>
 </footer>
 <script src="assets/components/modernizr.js"></script>
 <script src="assets/js/scripts.min.js"></script>

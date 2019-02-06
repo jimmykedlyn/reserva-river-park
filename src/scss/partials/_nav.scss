@@ -73,7 +73,7 @@
       }
     }
     .rv__header-menu-over {
-      width: 100px;
+      width: 80px;
       background: $secondary-color;
       height: 6px;
       position: absolute;
@@ -81,7 +81,7 @@
       bottom: 0;
       transition: all .9s cubic-bezier(.18,.84,.44,.85);
       opacity: 0;
-      margin-left: -50px;
+      margin-left: -39px;
       @include media-breakpoint-down(md) {
         display: none;
       }
