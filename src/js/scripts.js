@@ -2,61 +2,6 @@
 
   'use strict';
 
-  $(function () {
-    $(document).ready(function () {
-      let $menu = $(".rv__header-menu");
-      let $overMenu = $menu.find('.rv__header-menu-over');
-      let $active = $menu.find('.rv__header-menu-over-active');
-      if ($active.length > 0) {
-        let w = $active.outerWidth() / 2;
-        let l = $active.position().left;
-        let pos = l + w;
-        $overMenu.css({
-          left: pos,
-          opacity: 1
-        });
-      }
-      $(".rv__header-menu ul li").hover(function () {
-        let $this = $(this);
-        let w = $this.outerWidth() / 2;
-        let l = $this.position().left;
-        let pos = l + w;
-        $overMenu.css({
-          left: pos,
-          opacity: 1
-        });
-      }, function () {
-        if ($active.length <= 0) {
-          $overMenu.css({
-            opacity: 0
-          });
-        } else {
-          let w = $active.outerWidth() / 2;
-          let l = $active.position().left;
-          let pos = l + w;
-          $overMenu.css({
-            left: pos,
-            opacity: 1
-          });
-        }
-      });
-      $(window).resize(function () {
-        if ($active.length <= 0) {
-          $overMenu.css({
-            opacity: 0
-          });
-        } else {
-          let w = $active.outerWidth() / 2;
-          let l = $active.position().left;
-          let pos = l + w;
-          $overMenu.css({
-            left: pos,
-            opacity: 1
-          });
-        }
-      });
-    });
-  });
 
   $('#rv__section-two').owlCarousel({
     loop: true,
@@ -294,6 +239,14 @@
         }
       });
   });
+
+  var OnePNav = $('.rv__header-menu');
+  var TopOffset = OnePNav.height() -0;
+  OnePNav.onePageNav({
+    currentClass: 'rv__header-menu-over-active',
+    scrollOffset: TopOffset,
+  });
+
 })(jQuery, window, document);
 
 
